@@ -20,7 +20,6 @@ import Formulaire from './component/Formulaire';
   const [result, setResult] = useState({});
   const [userInput, setUserInput] = useState('');
 
-
   const setData = (data) => { 
 
     setName(data.city.name);
@@ -92,7 +91,6 @@ import Formulaire from './component/Formulaire';
      alert("Merci de renseigner une ville")
     }
   }  
-
 
   return (
     <div>
